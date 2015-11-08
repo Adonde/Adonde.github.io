@@ -23,13 +23,21 @@
 <p>My name is Harvvey and I'm a mod on the Mineplex Network.<br>
 <p>At the mitst of the Holiday Seaons, I personally will be holding some in-game reward systems via this webpage. These rewards will be tallied up by a simple ticket system, in which for every 10 minutes you spend on any minigame on hypixel, you earn one ticket. All these tickets will be collected. Drawing random players through a custom UUID system made by me and some of the other staff, players will be rewarded with in-game loot, or even ranks, on Novermber 15th, at 12:00 AM CST. Winners will be posted on this site, and from said drawing date, you will have 48 hours to post a thread on the forums. If failed to comply within 48 hours, a new user will be chosen.<br>
 
-<form action="contact.php" method="post">
-    Your Ingame Name<br>
-    <input type="text" name="cf_name"><br>
-    Your Password<br>
-    <input type="text" name="cf_email"><br>
-    <input type="submit" value="Enter Giveaway!">
-  </form>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your Ingame Name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your Email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your Password:</label><br />
+		<textarea id="message" class="input" name="message" type="text" value="" size="30"<br />
+	</div>
+	<input id="submit_button" type="submit" value="Enter Giveaway!" />
+</form>
 
   </body>
 </html>
